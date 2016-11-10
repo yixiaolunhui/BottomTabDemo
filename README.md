@@ -1,5 +1,5 @@
 # BottomTabDemo
-app底部切换tab控件
+app底部切换tab控件，本代码加载网络图片使用开源glide框架。
 
 #效果图
 
@@ -11,3 +11,5 @@ app底部切换tab控件
         3、可以设置消息数量
 
 
+#感谢
+[glide](https://github.com/bumptech/glide)
