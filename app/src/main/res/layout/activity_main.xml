@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dalong.bottomtabdemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button
+            android:text="使用本地图片"
+            android:onClick="onLocalIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="使用网络图片"
+            android:onClick="onNetIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="设置小红点"
+            android:onClick="onTabNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="清除小红点"
+            android:onClick="onClearTabNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <View
+        android:background="#dedede"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <com.dalong.buttomtablayout.BottomTabLayout
+        android:id="@+id/mBottomTabLayout"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
