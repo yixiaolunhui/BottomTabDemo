@@ -46,6 +46,8 @@
         android:background="#dedede"
         android:layout_width="match_parent"
         android:layout_height="1px"/>
+
+
     <com.dalong.buttomtablayout.BottomTabLayout
         android:id="@+id/mBottomTabLayout"
         android:layout_width="match_parent"
